@@ -119,7 +119,6 @@
 			children = (
 				F92952A0239769C0009BC31B /* AppDelegate.swift */,
 				F92952AB239769C3009BC31B /* LaunchScreen.storyboard */,
-				F92952C823976E0A009BC31B /* GoogleService-Info.plist */,
 				F92952CC239776CD009BC31B /* Presentation */,
 				F92952CB239776AB009BC31B /* Resource */,
 				F92952A8239769C3009BC31B /* Preview Content */,
@@ -156,8 +155,9 @@
 		F92952CB239776AB009BC31B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				F92952A6239769C3009BC31B /* Assets.xcassets */,
 				F92952AE239769C3009BC31B /* Info.plist */,
+				F92952A6239769C3009BC31B /* Assets.xcassets */,
+				F92952C823976E0A009BC31B /* GoogleService-Info.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -429,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -483,7 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -502,7 +502,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FirebaseChatApp/Preview Content\"";
 				DEVELOPMENT_TEAM = GH5DVGP543;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FirebaseChatApp/Info.plist;
+				INFOPLIST_FILE = FirebaseChatApp/Resource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -523,7 +523,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FirebaseChatApp/Preview Content\"";
 				DEVELOPMENT_TEAM = GH5DVGP543;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FirebaseChatApp/Info.plist;
+				INFOPLIST_FILE = FirebaseChatApp/Resource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
