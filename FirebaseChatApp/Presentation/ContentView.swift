@@ -6,11 +6,14 @@
 //  Copyright © 2019 simorgh3196. All rights reserved.
 //
 
+import KeyboardObserving
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ChatViewControllerWrapper()
+        VStack {
+            ChatViewControllerWrapper()
+        }.keyboardObserving()
     }
 }
 

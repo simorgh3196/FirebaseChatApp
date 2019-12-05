@@ -28,6 +28,7 @@ PODS:
   - GoogleUtilities/Environment (6.3.2)
   - GoogleUtilities/Logger (6.3.2):
     - GoogleUtilities/Environment
+  - KeyboardObserving (0.2.1)
   - leveldb-library (1.22)
   - nanopb (0.3.9011):
     - nanopb/decode (= 0.3.9011)
@@ -37,9 +38,10 @@ PODS:
 
 DEPENDENCIES:
   - Firebase/Database
+  - KeyboardObserving
 
 SPEC REPOS:
-  https://cdn.cocoapods.org/:
+  trunk:
     - Firebase
     - FirebaseAuthInterop
     - FirebaseCore
@@ -49,6 +51,7 @@ SPEC REPOS:
     - GoogleDataTransport
     - GoogleDataTransportCCTSupport
     - GoogleUtilities
+    - KeyboardObserving
     - leveldb-library
     - nanopb
 
@@ -62,9 +65,10 @@ SPEC CHECKSUMS:
   GoogleDataTransport: 8e9b210c97d55fbff306cc5468ff91b9cb32dcf5
   GoogleDataTransportCCTSupport: ef79a4728b864946a8aafdbab770d5294faf3b5f
   GoogleUtilities: 547a86735c6f0ee30ad17e94df4fc21f616b71cb
+  KeyboardObserving: d80b12a71a9ca1111372281eab70d454f9871e06
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
 
-PODFILE CHECKSUM: acb7f3ed500b1c32f0302c36192ca1e8618b12ba
+PODFILE CHECKSUM: 7a8fe652659fd7cc45032f78dd5e1f9a65020081
 
 COCOAPODS: 1.8.4
